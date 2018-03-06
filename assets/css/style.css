@@ -1,0 +1,49 @@
+
+    h2 {
+    text-align: center;
+    color: white;
+    }
+    
+    h1, h3, form {
+    text-align: center;
+    margin-bottom: 20px;
+    }
+
+    .card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    text-align: center;
+    background-color: rgb(50, 80, 180);
+    
+    }
+
+    .card-body {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    text-align: center;
+    }
+
+    .hidden {
+    display: none;
+
+    }
+    
+    .jumbotron {
+    background-color: rgb(50, 80, 180);
+    }
+
+    #blackcard  {
+    border: solid 3px;
+    border-color: white;
+    }
+
+    #button-submit {
+    text-align: center;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    }
+
+    #game {
+    margin-left: 50px;
+    margin-bottom: 20px;
+    }
