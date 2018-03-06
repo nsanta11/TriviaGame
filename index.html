@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>The Trivia Game</title>
+</head>
+ 
+<body background="https://cdn.pixabay.com/photo/2017/07/10/23/43/question-mark-2492009_960_720.jpg">
+ 
+  <div class="card bg-dark text-white">
+  </div>
+
+  <div class="card bg-dark text-white">
+      <div class="card-body text-center">
+      </div>
+ 
+
+  <div class="card">
+      <div class="card-body text-center">
+          <h1>Welcome to Trivia!</h1>
+      </div>
+    </div>
+  </div>
+</div>
+    <br>
+
+
+  <div id="blackcard" class="card bg-light mb-3" style="max-width: 50rem;" "margin: center;">
+      <div class="card-body">
+        <h5 class="card-header">You have 30 seconds to complete this quiz</h5>
+
+<div class="containerButtons">
+  <div class="row">
+      
+      <div class="col-lg-12">
+        <br>
+        <div class="card bg-dark text-white">
+          <h2 class="card-body" id="display"></h2>
+          </div>
+        </div>
+      </div>
+  
+    
+<br>
+<br>
+<form name="trivia game" id="game">
+  <h3>1. What is Eminem's real name?</h3>
+  Martin Mason 
+  <input type="radio" class="option" name="q_one" value="wrong"/>
+  Marshall Mathers 
+  <input type="radio" class="option" name="q_one" value="correct"/>
+  Slim Shady
+  <input type="radio" class="option" name="q_one" value="wrong"/>
+  Michael Slim
+  <input type="radio" class="option" name="q_one" value="wrong"/>
+    <br>
+
+  <br>
+
+  <h3>2. How many pints are in a bushel?</h3>
+  100
+  <input type="radio" class="option" name="q_two" value="wrong"/>
+  52 
+  <input type="radio" class="option" name="q_two" value="wrong"/>
+  64
+  <input type="radio" class="option" name="q_two" value="correct"/>
+  12
+  <input type="radio" class="option" name="q_two" value="wrong"/>
+  <br>
+  <br>
+
+  <h3>3. What is the largest freshwater lake in the world?</h3>
+  Lake Superior
+  <input type="radio" class="option" name="q_three" value="correct"/>
+  Lake Onega
+  <input type="radio" class="option" name="q_three" value="wrong"/>
+  Lake Michigan
+  <input type="radio" class="option" name="q_three" value="wrong"/>
+  Lake Huron
+  <input type="radio" class="option" name="q_three" value="wrong"/>
+  <br>
+  <br>
+
+  <h3>4. How many ridges does a quarter have?</h3>
+  72
+  <input type="radio" class="option" name="q_four" value="wrong"/>
+  119
+  <input type="radio" class="option" name="q_four" value="correct"/>
+  67
+  <input type="radio" class="option" name="q_four" value="wrong"/>
+  150
+  <input type="radio" class="option" name="q_four" value="wrong"/>
+  <br>
+  <br>
+
+  <h3>5. Who was the first person to walk the moon?</h3>
+  Buzz Aldrin
+  <input type="radio" class="option" name="q_five" value="wrong"/>
+  John Glenn
+  <input type="radio" class="option" name="q_five" value="wrong"/>
+  Arnold Dupont
+  <input type="radio" class="option" name="q_five" value="wrong"/>
+  Neil Armstrong
+  <input type="radio" class="option" name="q_five" value="correct"/>
+
+  <br>
+  <br>
+  <div class="form-row text-center">
+    <div class="col-12">
+      <button id="button" type="button">submit</button>
+    </div>
+  </div>
+</form>
+</div>
+
+<div class="row hidden"  id="scoreContainer">
+  <!-- Your score -->
+  <div class="col-lg-12">
+   <br>
+    <div class="card bg-dark text-white">
+      <h1 class="card-header">Your score is:</h1>
+      <div class="card-body">
+        <h3 id="total-score"></h3>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<br>
+
+   
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script type="text/javascript" src="./assets/javascript/game.js"></script>
+
+
+      <style> 
+
+        /*body {
+          background-color: rgba(140, 228, 240, 0.808);
+        }*/
+
+      
+      
+        h2 {
+          text-align: center;
+          color: white;
+        }
+        
+        h1, h3, form {
+          text-align: center;
+          margin-bottom: 20px;
+        }
+
+        .card {
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        text-align: center;
+        background-color: rgb(50, 80, 180);
+        
+        }
+
+        .card-body {
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        text-align: center;
+        }
+        
+        .jumbotron {
+          background-color: rgb(50, 80, 180);
+        }
+
+        #blackcard  {
+        border: solid 3px;
+        border-color: white;
+        }
+
+        #button-submit {
+          text-align: center;
+          margin: 0 auto; /* Added */
+          float: none; /* Added */
+        }
+
+        #game {
+          margin-left: 50px;
+          margin-bottom: 20px;
+        }
+
+        .hidden {
+          display: none;
+
+        }
+
+      </style>
+
+</div>
+</div>
+ <hr>
+
+</body>
+
+
+
+</html>
