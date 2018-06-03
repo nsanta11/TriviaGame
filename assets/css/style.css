@@ -36,6 +36,11 @@
     border: solid 3px;
     border-color: white;
     }
+    
+
+    #border {
+    border-color: rgb(249, 152, 48);
+    }
 
     #button-submit {
     text-align: center;
@@ -47,3 +52,10 @@
     margin-left: 50px;
     margin-bottom: 20px;
     }
+
+    #start {
+    margin: 70px;
+    background-color: rgb(249, 152, 48);
+    border-color: rgb(249, 152, 48);
+    }
+   
